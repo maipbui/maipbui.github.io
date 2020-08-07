@@ -1,5 +1,5 @@
 body {
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
   color: #272829;
 }
 
@@ -13,7 +13,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
 }
 
 
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Fira Sans";
+  font-family: "Fira Sans", sans-serif;
 }
 
 #header .profile h1 a, #header .profile h1 a:hover {
@@ -242,12 +242,34 @@ section {
   color: #173b6c;
 }
 
-/*--------------------------------------------------------------
-# Certificates Section
---------------------------------------------------------------*/
+#projects {
+  margin-left: 40px;
+  text-align: justify;
+}
 
-.certificates .content h3 {
-  font-weight: 700;
-  font-size: 26px;
-  color: #173b6c;
+.pj-button{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  color:#fff;
+  background-color:#173b6c;
+  cursor:pointer;
+  white-space:nowrap;
+  border-radius: 50%;
+}
+
+.pj-display-left{
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(-0%,-50%)
+}
+
+.pj-display-right{
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%,-50%);
+  -ms-transform:translate(0%,-50%)
 }
